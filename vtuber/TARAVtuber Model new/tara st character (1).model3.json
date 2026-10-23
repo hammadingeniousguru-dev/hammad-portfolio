@@ -1,0 +1,49 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "TARA ST CHARACTER (1).moc3",
+		"Textures": [
+			"TARA ST CHARACTER (1).4096/texture_00.png"
+		],
+		"Physics": "TARA ST CHARACTER (1).physics3.json",
+		"DisplayInfo": "TARA ST CHARACTER (1).cdi3.json",
+		"Expressions": [
+			{
+				"Name": "jacket",
+				"File": "jacket.exp3.json"
+			},
+			{
+				"Name": "angry",
+				"File": "angry.exp3.json"
+			},
+			{
+				"Name": "scared",
+				"File": "scared.exp3.json"
+			},
+			{
+				"Name": "cat ear",
+				"File": "cat ear.exp3.json"
+			},
+			{
+				"Name": "star eye",
+				"File": "star eye.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}

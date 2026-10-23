@@ -1,0 +1,45 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Pop character vtuber main.moc3",
+		"Textures": [
+			"Pop character vtuber main.4096/texture_00.png"
+		],
+		"Physics": "Pop character vtuber main.physics3.json",
+		"DisplayInfo": "Pop character vtuber main.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "happy",
+				"File": "happy.exp3.json"
+			},
+			{
+				"Name": "angry",
+				"File": "angry.exp3.json"
+			},
+			{
+				"Name": "scared",
+				"File": "scared.exp3.json"
+			},
+			{
+				"Name": "shocked",
+				"File": "shocked.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Ember  live2d Vtuber .moc3",
+		"Textures": [
+			"Ember  live2d Vtuber .4096/texture_00.png"
+		],
+		"Physics": "Ember  live2d Vtuber .physics3.json",
+		"DisplayInfo": "Ember  live2d Vtuber .cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamBreath"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

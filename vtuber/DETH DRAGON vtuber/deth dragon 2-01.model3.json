@@ -1,0 +1,57 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "DETH DRAGON 2-01.moc3",
+		"Textures": [
+			"DETH DRAGON 2-01.4096/texture_00.png"
+		],
+		"Physics": "DETH DRAGON 2-01.physics3.json",
+		"DisplayInfo": "DETH DRAGON 2-01.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "fire on",
+				"File": "fire on.exp3.json"
+			},
+			{
+				"Name": "angry",
+				"File": "angry.exp3.json"
+			},
+			{
+				"Name": "scard",
+				"File": "scared.exp3.json"
+			},
+			{
+				"Name": "love",
+				"File": "love.exp3.json"
+			},
+			{
+				"Name": "glasses",
+				"File": "glasses.exp3.json"
+			},
+			{
+				"Name": "wings",
+				"File": "wings.exp3.json"
+			},
+			{
+				"Name": "wings fire",
+				"File": "wings fire.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}

@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hammad Khan — Animator & Creative Multimedia Generalist</title>
+<meta name="description" content="Hammad Khan is a Karachi-based animator and creative multimedia generalist: 2D animation, motion graphics, Blender 3D, Live2D VTuber rigging, AI-powered Meta ads and stream overlays.">
+<meta name="theme-color" content="#0b0b0f">
+<meta property="og:title" content="Hammad Khan — Frame by frame">
+<meta property="og:description" content="2D animation · Motion graphics · 3D · Live2D VTuber rigging · AI Meta ads">
+<meta property="og:image" content="assets/poster/hero-reel.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/avatar.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<!-- ───────── Preloader ───────── -->
+<div class="loader" aria-hidden="true">
+  <div class="loader-frames">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="loader-meta">
+    <span class="mono">Rendering frames</span>
+    <span class="loader-count mono">000</span>
+  </div>
+  <div class="loader-name">Hammad Khan</div>
+</div>
+
+<!-- ───────── Cursor ───────── -->
+<div class="cursor" aria-hidden="true"><div class="cursor-dot"></div><div class="cursor-ring"><span class="cursor-label"></span></div></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ───────── Header ───────── -->
+<header class="nav">
+  <a href="#top" class="brand" data-magnetic aria-label="Hammad Khan — home">
+    <span class="brand-mark">HK</span>
+    <span class="brand-text">Hammad Khan<small>Creative Multimedia Generalist</small></span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#work" data-scramble>Work</a>
+    <a href="#vtuber" data-scramble>VTuber Lab</a>
+    <a href="#threed" data-scramble>3D</a>
+    <a href="#about" data-scramble>About</a>
+  </nav>
+  <a href="#contact" class="btn btn-key nav-cta" data-magnetic><span>Hire me</span></a>
+  <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="mobile-menu" aria-hidden="true">
+  <a href="#work">Work</a><a href="#vtuber">VTuber Lab</a><a href="#threed">3D</a><a href="#ads">Ads</a><a href="#overlays">Overlays</a><a href="#about">About</a><a href="#contact">Contact</a>
+</div>
+
+<!-- ───────── Timeline (scroll scrubber) ───────── -->
+<div class="timeline" aria-label="Page timeline">
+  <span class="tl-tc mono" aria-hidden="true">00:00:00:00</span>
+  <div class="tl-track" role="slider" aria-label="Scroll position" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+    <div class="tl-ticks"></div>
+    <div class="tl-fill"></div>
+    <div class="tl-keys"></div>
+    <div class="tl-head"><span></span></div>
+  </div>
+  <span class="tl-fps mono" aria-hidden="true">30 fps</span>
+</div>
+
+<main id="top">
+
+<!-- ───────── Hero ───────── -->
+<section class="hero" aria-label="Intro">
+  <div class="hero-meta mono">
+    <span><i class="dot-live"></i> Available for freelance &amp; studio work</span>
+    <span class="hide-sm">Karachi, PK · <span class="clock">--:--</span> PKT</span>
+  </div>
+
+  <h1 class="hero-title">
+    <span class="line"><span class="word">Hammad</span></span>
+    <span class="line"><span class="word">Khan<em class="hero-reg">®</em></span></span>
+  </h1>
+
+  <div class="hero-bottom">
+    <p class="hero-sub">I make pixels
+      <span class="rotator" aria-live="polite"><span class="rot-word">move</span></span>
+      <br>— animation, motion, 3D &amp; VTuber rigs for brands and creators.</p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-key" data-magnetic><span>See the work</span><i class="arrow">↓</i></a>
+      <a href="#vtuber" class="btn btn-ghost" data-magnetic><span>Play with a rig</span></a>
+    </div>
+  </div>
+
+  <!-- floating character stickers (parallax on mouse) -->
+  <div class="stickers" aria-hidden="true">
+    <img class="sticker s1" data-depth="0.6" src="assets/vtuber/ember/full.webp" alt="">
+    <img class="sticker s2" data-depth="1.1" src="assets/vtuber/kore/full.webp" alt="">
+    <img class="sticker s3" data-depth="0.8" src="assets/vtuber/deth-dragon/exp-wings.webp" alt="">
+  </div>
+
+  <div class="scroll-hint mono" aria-hidden="true"><span>Scroll to play</span><i></i></div>
+</section>
+
+<!-- ───────── Reel (expands on scroll) ───────── -->
+<section class="reel" aria-label="Showreel">
+  <div class="reel-sticky">
+    <div class="reel-frame" data-cursor="Watch film" data-open="looney">
+      <video class="reel-video" src="assets/video/hero-reel.mp4" poster="assets/poster/hero-reel.jpg" muted loop playsinline autoplay preload="auto"></video>
+      <div class="hud">
+        <span class="hud-c tl"></span><span class="hud-c tr"></span><span class="hud-c bl"></span><span class="hud-c br"></span>
+        <span class="hud-rec mono"><i></i> REC</span>
+        <span class="hud-tc mono">TC 00:00:00:00</span>
+        <span class="hud-label mono">REEL — 2021 → 2026</span>
+        <span class="hud-res mono">1920×1080 · 16:9</span>
+      </div>
+    </div>
+    <div class="reel-caption">
+      <span class="mono">Ch. 00</span>
+      <p>Five years of frames — cartoons, promos, rigs, renders and ads — cut into eighteen seconds.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Marquee ───────── -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>2D Animation</span><b>◆</b><span>Motion Graphics</span><b>◆</b><span>Blender 3D</span><b>◆</b><span>Live2D Rigging</span><b>◆</b><span>AI Meta Ads</span><b>◆</b><span>Stream Overlays</span><b>◆</b>
+    <span>2D Animation</span><b>◆</b><span>Motion Graphics</span><b>◆</b><span>Blender 3D</span><b>◆</b><span>Live2D Rigging</span><b>◆</b><span>AI Meta Ads</span><b>◆</b><span>Stream Overlays</span><b>◆</b>
+  </div>
+</div>
+
+<!-- ───────── About ───────── -->
+<section class="about section" id="about" data-chapter="About">
+  <div class="about-grid">
+    <div class="about-photo" data-tilt>
+      <div class="photo-blob"></div>
+      <img src="assets/img/hammad.webp" alt="Portrait of Hammad Khan" width="900" height="900" loading="lazy">
+      <div class="photo-tag mono">HK_final_v12_REALLY_final.png</div>
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow mono">// About</span>
+      <p class="about-lead reveal-words">Multimedia artist and creative generalist with 5+ years at a marketing agency — taking projects from first sketch to final export across animation, motion graphics, 3D, VTuber rigging and AI-powered ad creative.</p>
+      <p class="about-body">I'm Hammad, based in Karachi. At <strong>IngeniousGuru</strong> I've been the person a brief lands on when it needs to <em>move</em>: a cartoon for a campaign, a 3D character in Blender, a Live2D rig ready for VTube Studio, or a scroll-stopping ad for Meta. Off the clock I'm out with a camera — cinematic shooting and travelling keep my eye for framing sharp.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-plus">+</span><span class="stat-label">Years in agency production</span></div>
+        <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-label">Live2D rigs in this portfolio</span></div>
+        <div class="stat"><span class="stat-num" data-count="221">0</span><span class="stat-label">Rig parameters across them</span></div>
+        <div class="stat"><span class="stat-num" data-count="4">0</span><span class="stat-label">Disciplines, one pipeline</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Ch.01 2D Animation & Motion ───────── -->
+<section class="work section" id="work" data-chapter="2D Animation">
+  <div class="section-head">
+    <span class="chapter mono">Ch. 01</span>
+    <h2 class="section-title split">2D Animation <span class="amp">&amp;</span> Motion</h2>
+    <p class="section-intro">Character cartoons and motion-graphics promos made in After Effects and Premiere Pro. Hover to preview, click to watch with sound.</p>
+  </div>
+
+  <div class="work-grid">
+    <article class="card card-xl" data-open="looney" data-cursor="Play" tabindex="0">
+      <div class="card-media">
+        <img src="assets/poster/looney.jpg" alt="Two cartoon characters in a western town" loading="lazy">
+        <video muted loop playsinline preload="none" data-src="assets/video/looney-prev.mp4"></video>
+        <span class="card-time mono">02:40</span>
+      </div>
+      <div class="card-info">
+        <span class="card-idx mono">01</span>
+        <div><h3>Looney Mix</h3><p>2D character animation · Cartoon short</p></div>
+        <span class="card-tags mono">After Effects · Premiere</span>
+      </div>
+    </article>
+
+    <article class="card" data-open="scene1" data-cursor="Play" tabindex="0">
+      <div class="card-media">
+        <img src="assets/poster/scene1.jpg" alt="Animated gallery room with framed landscape photos" loading="lazy">
+        <video muted loop playsinline preload="none" data-src="assets/video/scene1-prev.mp4"></video>
+        <span class="card-time mono">00:16</span>
+      </div>
+      <div class="card-info">
+        <span class="card-idx mono">02</span>
+        <div><h3>Fine Art Photo Promo</h3><p>Motion graphics · Promo spot</p></div>
+      </div>
+    </article>
+
+    <article class="card" data-open="scene2" data-cursor="Play" tabindex="0">
+      <div class="card-media">
+        <img src="assets/poster/scene2.jpg" alt="Animated boat heading toward a sunset over the sea" loading="lazy">
+        <video muted loop playsinline preload="none" data-src="assets/video/scene2-prev.mp4"></video>
+        <span class="card-time mono">00:18</span>
+      </div>
+      <div class="card-info">
+        <span class="card-idx mono">03</span>
+        <div><h3>Experience — Travel Spot</h3><p>2D animation · Kinetic type</p></div>
+      </div>
+    </article>
+
+    <article class="card card-wide" data-open="scene3" data-cursor="Play" tabindex="0">
+      <div class="card-media">
+        <img src="assets/poster/scene3.jpg" alt="Illustrated portrait framed by music notes and waveforms" loading="lazy">
+        <video muted loop playsinline preload="none" data-src="assets/video/scene3-prev.mp4"></video>
+        <span class="card-time mono">00:15</span>
+      </div>
+      <div class="card-info">
+        <span class="card-idx mono">04</span>
+        <div><h3>Angie Hall — Feel the Rhythm</h3><p>Motion graphics · Artist promo</p></div>
+        <span class="card-tags mono">After Effects</span>
+      </div>
+    </article>
+
+    <div class="card card-process">
+      <span class="mono">How a brief becomes a film</span>
+      <h3>Concept to final export</h3>
+      <ol>
+        <li>Script &amp; storyboard</li>
+        <li>Design &amp; character art</li>
+        <li>Animate &amp; rig</li>
+        <li>Edit, sound &amp; deliver</li>
+      </ol>
+      <a href="#contact" class="btn" data-magnetic><span>Start a project</span><i class="arrow">→</i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Ch.02 VTuber Lab ───────── -->
+<section class="vtuber section" id="vtuber" data-chapter="VTuber Lab">
+  <div class="section-head">
+    <span class="chapter mono">Ch. 02</span>
+    <h2 class="section-title split">The VTuber Lab</h2>
+    <p class="section-intro">Live2D Cubism rigs, delivered ready for VTube Studio. Pick a model, then trigger its expressions and toggles — the hotkeys work too.</p>
+  </div>
+
+  <div class="lab">
+    <div class="lab-stage">
+      <div class="monitor" data-tilt-soft>
+        <div class="monitor-bar mono">
+          <span class="lights"><i></i><i></i><i></i></span>
+          <span class="monitor-file">tara.model3.json</span>
+          <span class="monitor-live"><i></i> tracking</span>
+        </div>
+        <div class="monitor-view">
+          <video class="vt-video a is-on" muted loop playsinline autoplay preload="auto"></video>
+          <video class="vt-video b" muted loop playsinline preload="auto"></video>
+          <div class="track-ui" aria-hidden="true"><span class="track-cross"></span><span class="track-xy mono">X 0.00 · Y 0.00</span></div>
+          <span class="vt-state mono">● idle</span>
+        </div>
+      </div>
+      <div class="hotkeys" role="group" aria-label="Expressions"></div>
+    </div>
+
+    <aside class="lab-panel">
+      <div class="model-list" role="tablist" aria-label="Choose a model"></div>
+      <div class="model-info">
+        <h3 class="model-name">Tara</h3>
+        <p class="model-desc"></p>
+        <dl class="model-stats">
+          <div><dt class="mono">Parameters</dt><dd class="ms-params">0</dd></div>
+          <div><dt class="mono">Physics groups</dt><dd class="ms-phys">0</dd></div>
+          <div><dt class="mono">Expressions</dt><dd class="ms-exp">0</dd></div>
+        </dl>
+        <p class="model-toggles mono"></p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ───────── Ch.03 3D ───────── -->
+<section class="threed" id="threed" data-chapter="3D">
+  <div class="h-wrap">
+    <div class="h-track">
+      <div class="h-panel h-intro">
+        <span class="chapter mono">Ch. 03</span>
+        <h2 class="section-title split">Modelled<br>in Blender</h2>
+        <p class="section-intro">An original anime character built, textured and shaded in Blender, plus a stylised character turnaround and a facial-rig test for eyes and mouth.</p>
+        <span class="mono drag-hint">Keep scrolling →</span>
+      </div>
+      <figure class="h-panel h-img tall"><div class="h-img-in"><img src="assets/img/render-1.webp" alt="Full-body render of a pink-haired anime character" loading="lazy"></div><figcaption class="mono">01 — Full body, key light</figcaption></figure>
+      <figure class="h-panel h-img"><div class="h-img-in"><img src="assets/img/render-2.webp" alt="Close-up render of the character holding a lollipop" loading="lazy"></div><figcaption class="mono">02 — Portrait close-up</figcaption></figure>
+      <figure class="h-panel h-img"><div class="h-img-in"><img src="assets/img/render-5.webp" alt="Side profile render showing long hair" loading="lazy"></div><figcaption class="mono">03 — Hair volume &amp; silhouette</figcaption></figure>
+      <figure class="h-panel h-img"><div class="h-img-in"><img src="assets/img/render-3.webp" alt="Detail render of the outfit and golden accessories" loading="lazy"></div><figcaption class="mono">04 — Costume detail</figcaption></figure>
+      <figure class="h-panel h-img"><div class="h-img-in"><img src="assets/img/render-4.webp" alt="Three-quarter render of the character's outfit" loading="lazy"></div><figcaption class="mono">05 — Sleeve &amp; prop detail</figcaption></figure>
+      <figure class="h-panel h-img h-video" data-open="rig3d" data-cursor="Play" tabindex="0">
+        <div class="h-img-in">
+          <img src="assets/poster/rig3d.jpg" alt="Blender viewport with the character's facial rig" loading="lazy">
+          <video muted loop playsinline preload="none" data-src="assets/video/rig3d-prev.mp4"></video>
+          <span class="play-badge">▶</span>
+        </div>
+        <figcaption class="mono">06 — Facial rig review: eyes &amp; mouth</figcaption>
+      </figure>
+      <figure class="h-panel h-img"><div class="h-img-in light"><img src="assets/img/turnaround.webp" alt="Side, front and back turnaround of a gunslinger character" loading="lazy"></div><figcaption class="mono">07 — Character turnaround</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Ch.04 Ads ───────── -->
+<section class="ads section" id="ads" data-chapter="AI Ads">
+  <div class="section-head">
+    <span class="chapter mono">Ch. 04</span>
+    <h2 class="section-title split">Thumb-stopping ads</h2>
+    <p class="section-intro">AI-assisted UGC-style and product creatives for Meta — built vertical-first, hooked in the first second. Tap a phone for sound.</p>
+  </div>
+  <div class="phones">
+    <figure class="phone" data-full="assets/video/furme.mp4" data-cursor="Sound on">
+      <div class="phone-screen">
+        <video muted loop playsinline preload="none" poster="assets/poster/furme.jpg" data-src="assets/video/furme-prev.mp4"></video>
+        <span class="phone-sound mono">🔇 tap for sound</span>
+      </div>
+      <figcaption><b>Furme</b><span class="mono">Product short · 0:30</span></figcaption>
+    </figure>
+    <figure class="phone featured" data-full="assets/video/metaad.mp4" data-cursor="Sound on">
+      <div class="phone-screen">
+        <video muted loop playsinline preload="none" poster="assets/poster/metaad.jpg" data-src="assets/video/metaad-prev.mp4"></video>
+        <span class="phone-sound mono">🔇 tap for sound</span>
+      </div>
+      <figcaption><b>Illumiflow Laser Cap</b><span class="mono">Meta ad · 0:50</span></figcaption>
+    </figure>
+    <figure class="phone" data-full="assets/video/ugc.mp4" data-cursor="Sound on">
+      <div class="phone-screen">
+        <video muted loop playsinline preload="none" poster="assets/poster/ugc.jpg" data-src="assets/video/ugc-prev.mp4"></video>
+        <span class="phone-sound mono">🔇 tap for sound</span>
+      </div>
+      <figcaption><b>Protect Your Rights</b><span class="mono">UGC legal ad · 0:25</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ───────── Ch.05 Overlays ───────── -->
+<section class="overlays section" id="overlays" data-chapter="Overlays">
+  <div class="section-head">
+    <span class="chapter mono">Ch. 05</span>
+    <h2 class="section-title split">Stream overlays</h2>
+    <p class="section-intro">A full animated scene pack for the <em>Anime Debates</em> channel — switch scenes like you're live in OBS.</p>
+  </div>
+
+  <div class="obs">
+    <div class="obs-program">
+      <div class="obs-bar mono"><span class="obs-onair"><i></i> ON AIR</span><span class="obs-scene-name">Starting Soon</span><button class="obs-mute mono" aria-pressed="false">🔇 Unmute</button></div>
+      <div class="obs-screen">
+        <video class="obs-video" muted loop playsinline preload="none" poster="assets/poster/ov-starting.jpg"></video>
+        <div class="obs-wipe"></div>
+      </div>
+    </div>
+    <div class="obs-scenes" role="tablist" aria-label="Scenes">
+      <span class="obs-title mono">Scenes</span>
+      <button class="scene is-active" data-scene="starting" data-label="Starting Soon" role="tab"><img src="assets/poster/ov-starting.jpg" alt=""><span><b>Starting Soon</b><small class="mono">All Might · F1</small></span></button>
+      <button class="scene" data-scene="brb" data-label="Be Right Back" role="tab"><img src="assets/poster/ov-brb.jpg" alt=""><span><b>Be Right Back</b><small class="mono">Zenitsu · F2</small></span></button>
+      <button class="scene" data-scene="offline" data-label="Offline" role="tab"><img src="assets/poster/ov-offline.jpg" alt=""><span><b>Offline</b><small class="mono">Grimmjow · F3</small></span></button>
+      <button class="scene" data-scene="ending" data-label="Stream Ending" role="tab"><img src="assets/poster/ov-ending.jpg" alt=""><span><b>Stream Ending</b><small class="mono">SSG Vegeta · F4</small></span></button>
+      <div class="obs-progress"><i></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Skills ───────── -->
+<section class="skills section" id="skills" data-chapter="Skills">
+  <div class="section-head">
+    <span class="chapter mono">Ch. 06</span>
+    <h2 class="section-title split">The toolkit</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-bars">
+      <div class="skill" data-level="7"><span>2D Animation &amp; Motion Graphics</span><div class="keys"></div></div>
+      <div class="skill" data-level="7"><span>AI Creative · Meta Ads</span><div class="keys"></div></div>
+      <div class="skill" data-level="6"><span>Live2D Rigging</span><div class="keys"></div></div>
+      <div class="skill" data-level="5"><span>3D Modelling</span><div class="keys"></div></div>
+    </div>
+    <div class="tools">
+      <div class="tool" data-tilt><img src="assets/img/icon-ae.png" alt="" width="64" height="64"><b>After Effects</b><span class="lvl mono lvl-master">Master</span></div>
+      <div class="tool" data-tilt><img src="assets/img/icon-pr.png" alt="" width="64" height="64"><b>Premiere Pro</b><span class="lvl mono">Expert</span></div>
+      <div class="tool" data-tilt><img src="assets/img/icon-blender.png" alt="" width="64" height="64"><b>Blender</b><span class="lvl mono">Expert</span></div>
+      <div class="tool" data-tilt><img src="assets/img/icon-cubism.png" alt="" width="64" height="64"><b>Live2D Cubism</b><span class="lvl mono">Advanced</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Experience ───────── -->
+<section class="exp section" id="experience" data-chapter="Experience">
+  <div class="section-head">
+    <span class="chapter mono">Ch. 07</span>
+    <h2 class="section-title split">Track record</h2>
+  </div>
+  <div class="exp-wrap">
+    <div class="exp-line"><i></i></div>
+    <article class="exp-item current">
+      <span class="exp-year mono">2021 — Present</span>
+      <h3>Creative Multimedia Generalist</h3>
+      <p class="exp-org">IngeniousGuru · Marketing agency</p>
+      <ul>
+        <li>2D animations for marketing campaigns, social content and promo videos</li>
+        <li>3D models and assets in Blender for commercial and creative projects</li>
+        <li>Motion graphics and video edits in Adobe After Effects</li>
+        <li>VTuber models rigged and prepared in Live2D Cubism</li>
+        <li>AI-assisted UGC-style ads and Meta ad creatives</li>
+      </ul>
+    </article>
+    <article class="exp-item">
+      <span class="exp-year mono">2018 — 2021</span>
+      <h3>Diploma in ADSE <small>(3 years)</small></h3>
+      <p class="exp-org">Aptech Institute</p>
+    </article>
+    <article class="exp-item">
+      <span class="exp-year mono">2016 — 2018</span>
+      <h3>Intermediate</h3>
+      <p class="exp-org">Private college</p>
+    </article>
+    <article class="exp-item">
+      <span class="exp-year mono">2006 — 2016</span>
+      <h3>Matriculation</h3>
+      <p class="exp-org">Royal Academy</p>
+    </article>
+    <div class="langs mono">
+      <span>Urdu — Native</span><span>English — Intermediate (strong reading &amp; listening)</span>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Contact ───────── -->
+<section class="contact" id="contact" data-chapter="Contact">
+  <span class="chapter mono">Final cut</span>
+  <h2 class="contact-title"><span class="line"><span class="word">Let's make</span></span><span class="line"><span class="word">it <span class="outline">move.</span></span></span></h2>
+  <div class="contact-actions">
+    <button class="email-pill" data-email="hammad.ingeniousguru@gmail.com" data-magnetic data-cursor="Copy">
+      <span class="email-text">hammad.ingeniousguru@gmail.com</span>
+      <span class="email-copied mono">Copied ✓</span>
+    </button>
+    <a class="btn btn-key" href="mailto:hammad.ingeniousguru@gmail.com?subject=Project%20enquiry" data-magnetic><span>Send an email</span><i class="arrow">↗</i></a>
+    <a class="btn btn-ghost" href="https://wa.me/923162397442" target="_blank" rel="noopener" data-magnetic><span>WhatsApp</span><i class="arrow">↗</i></a>
+  </div>
+  <footer class="footer mono">
+    <span>+92 316 2397442</span>
+    <span>Karachi, Pakistan · <span class="clock">--:--</span></span>
+    <span>© <span class="year">2026</span> Hammad Khan</span>
+    <a href="#top" class="to-top">Back to frame 0 ↑</a>
+  </footer>
+</section>
+
+</main>
+
+<!-- ───────── Lightbox ───────── -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+  <div class="lb-backdrop"></div>
+  <div class="lb-body">
+    <div class="lb-media"><video class="lb-video" controls playsinline></video></div>
+    <div class="lb-info">
+      <span class="lb-cat mono"></span>
+      <h3 class="lb-title"></h3>
+      <p class="lb-desc"></p>
+      <div class="lb-nav"><button class="lb-prev mono" aria-label="Previous">← Prev</button><button class="lb-next mono" aria-label="Next">Next →</button></div>
+    </div>
+    <button class="lb-close" aria-label="Close player">✕</button>
+  </div>
+</div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Kore chibi  model .moc3",
+		"Textures": [
+			"Kore chibi  model .4096/texture_00.png"
+		],
+		"Physics": "Kore chibi  model .physics3.json",
+		"DisplayInfo": "Kore chibi  model .cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
